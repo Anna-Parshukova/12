@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="https://unpkg.com/simplelightbox/dist/simple-lightbox.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/izitoast/dist/css/iziToast.min.css">
+  
+  <script type="module" crossorigin src="/12/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/12/assets/vendor-b11e2a50.js">
+  <link rel="stylesheet" href="/12/assets/vendor-4b066c51.css">
+  <link rel="stylesheet" href="/12/assets/index-d228f6a0.css">
+</head>
+<body>
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="Search images..." required>
+    <button type="submit">Search</button>
+  </form>
+  <div class="gallery" id="gallery"></div>
+  <button id="load-more" style="display: none;">Load more</button>
+  <div class="loading">Loading..</div>
+  
+</body>
+</html>
